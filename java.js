@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (loginForm) {
         // Cấu hình tài khoản hợp lệ (thay bằng kiểm tra server khi cần)
         const VALID_CREDENTIALS = { username: 'thanhnhan', password: '123456' };
-        const HOME_PAGE =  '/WEB2/home.html';
+        const HOME_PAGE =  'home.html';
 
         loginForm.addEventListener('submit', (event) => {
             event.preventDefault(); // Ngăn chặn form gửi đi
@@ -52,3 +52,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
